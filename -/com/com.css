@@ -1,0 +1,40 @@
+.header-box {
+    background-color: silver;
+    border-radius: 12px;
+    border: 1px solid #000;
+    margin-bottom: 6px;
+}
+
+.header-box-main {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #000;
+    padding: 3px;
+    text-align: center;
+}
+
+.header-box-sub {
+    font-size: small;
+    padding: 3px;
+}
+
+.content {
+    background-color: silver;
+    border-radius: 12px;
+    border: 1px solid #000;
+    margin-bottom: 6px;
+    padding: 3px;
+}
+
+.content h1 {
+    margin: 0;
+    font-weight: 300;
+}
+
+
+/* common header/footer mod for site */
+.common-header-bottom[hpos="left"] {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+}
